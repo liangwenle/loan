@@ -1,0 +1,7 @@
+body {
+  background: #ddd
+}
+#app {
+  max-width: 945px;
+  margin: auto
+}
