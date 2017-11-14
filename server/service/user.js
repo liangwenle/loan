@@ -2,7 +2,7 @@
  class User {
 
   async add (ctx){
-    let user = db.user.find({name:"12"})
+    let user = db.user.find({name:"123456"})
 
   }
 
