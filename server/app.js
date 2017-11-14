@@ -11,6 +11,10 @@ appStatic.use(serve(__dirname + "/html"));
 
 const appApi = new Koa();
 
+var mongoose = require('mongoose')
+mongoose.connect('mongodb://localhost/loan', { useMongoClient: true })
+mongoose.Promise = global.Promise
+
 appApi
   .use(async (ctx, next) => {
     const start = Date.now();

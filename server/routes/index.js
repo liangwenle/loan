@@ -3,7 +3,7 @@ const router = new Router();
 
 router
   .get("/", async (ctx, next) => {
-    ctx.body =  ctxsd.request.body;
+    ctx.body =  {};
   })
   .post("/users", async (ctx, next) => {
     // ...
@@ -21,5 +21,6 @@ router
     // ...
     // ctx.body = ctx.request.body;
   });
-
+  
+  
 module.exports = router;
