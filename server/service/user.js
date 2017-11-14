@@ -2,6 +2,7 @@
  class User {
 
   async add (ctx){
+    consoel.log(ctx)
     let user = db.user.find({name:"123456"})
   }
 

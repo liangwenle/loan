@@ -8,7 +8,13 @@ router
   .get("/", async (ctx, next) => {
     ctx.body =  {};
   })
+
+
   .post("/users", s_user.add)
+
+
+
+  
   .put("/users/:id", async (ctx, next) => {
     // ...
     // ctx.body = ctx.request.body;
