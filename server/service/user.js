@@ -1,6 +1,5 @@
  const db = require("../model");
-
- class Use {
+ class User {
 
   async add (ctx){
     let user = db.user.find({name:"12"})
