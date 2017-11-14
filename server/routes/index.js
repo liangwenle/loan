@@ -1,14 +1,14 @@
 const Router = require("koa-router");
+
+const s_user = require("../service/user");
+
 const router = new Router();
 
 router
   .get("/", async (ctx, next) => {
     ctx.body =  {};
   })
-  .post("/users", async (ctx, next) => {
-    // ...
-    // ctx.body = ctx.request.body;
-  })
+  .post("/users", s_user.add)
   .put("/users/:id", async (ctx, next) => {
     // ...
     // ctx.body = ctx.request.body;
