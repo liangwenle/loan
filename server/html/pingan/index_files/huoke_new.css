@@ -1,0 +1,207 @@
+.gw_btn2 {
+    width: 88%;
+    margin-left: 5.5%;
+    background: url(./img/btn_bg.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 1% 0;
+    height: 3rem;
+    margin: 0.5rem auto;
+}
+.wrap-msg .msg-con .Phone-On {
+    width: 12.1%;
+    height: 2.5rem;
+    margin-left: 1rem;
+    margin-top: 0.1rem;
+}
+.link_m {
+    width: 80%;
+    margin-top: 0.5rem;
+}
+.gw_phone {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 96%;
+    animation: tellscale 3s ease infinite;
+    -webkit-animation: tellscale 3s ease infinite;
+}
+.wrap-msg .msg-con .condition .form .f-form li {
+    border-bottom: 1px solid #dbdbdb;
+}
+.wrap-msg .msg-con .condition .form .f-form li label{
+	height: 2.5rem;
+    line-height: 2.5rem;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 0.875rem;
+    color: #666666;
+    width: 5rem;
+}
+.wrap-msg .msg-con .condition .form .f-form li input{
+	height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 0.875rem;
+}
+.form {
+    border-top: 1px solid #dbdbdb;
+}
+.wrap-msg .msg-con .condition .form .f-form li span {
+    display: inline-block;
+    height: 1.8rem;
+    line-height: 1.7rem;
+    background: #ff870c;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    border: solid 1px #ff870c;
+    margin-top: 0.4rem;
+    float: right;
+    width: 5.5rem;
+}
+ 
+.wrap-msg .msg-con .condition .form .f-form li .sms_input{
+	width: 7rem;
+}
+.wrap-msg .msg-con .condition .form .f-form li .sms_input2{
+	width: 6rem;
+}
+.sms_span{
+	position: absolute;
+    right: 22%;
+    top: 18%;
+    color: #ff870c;
+    font-size: 0.65rem;
+}
+.wrap-msg .msg-con .condition .form .f-form .ht .btn{
+	padding-top: 0;
+    height: 2.5625rem;
+    line-height: 2.5625rem;
+    background-color: #f75816;
+    color: #ffffff;
+    font-size: 1.125rem;
+    text-align: center;
+    border-radius: 0.3125rem;
+    width: 100%;
+}
+.wrap-msg .msg-con .condition .form .f-form .ht_m{
+	border-bottom: none;
+	padding-bottom: 0;
+}
+.gw_wap_box {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding-left: 0.3rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid #DBDBDB;
+}
+.gw_wap_1 {
+    width: 6.5rem;
+    padding-top: 0.5rem;
+    margin-left: 0.2rem;
+}
+.img_box {
+    width: 100%;
+}
+.text2 {
+   font-size: 0.7rem;
+   padding: 2px 3px;
+}
+.wrap-msg .msg-con img.erweicode{
+	 width: 30%;
+    height: 30%;
+    margin-top: 0.2rem;
+}
+.ewmtitle {
+    width: 100%;
+    height: auto;
+}
+.noertit1 {
+    background: url(./img/1.5.png) 0.4rem 0 no-repeat;
+    height: 0.84375rem;
+    background-size: contain;
+    margin-top: 1rem;
+}
+.noertit2 {
+    background: url(./img/1.6.png) 0.4rem 0 no-repeat;
+    height: 0.84375rem;
+    background-size: contain;
+    margin-top: 1rem;
+}
+.noertit3 {
+    background: url(./img/1.7.png) 0.4rem 0 no-repeat;
+    height: 0.84375rem;
+    background-size: contain;
+    margin-top: 1rem;
+}
+.wrap-msg .msg-con .img_box img {
+    width: 100%;
+    height: 100%;
+}
+.noertit1 p {
+    font-size: 0.8125rem;
+    text-align: center;
+    height: 0.84375rem;
+    line-height: 0.84375rem;
+    vertical-align: middle;
+    color: #f45a26;
+    margin-left: 1rem;
+}
+.noertit2 p {
+    font-size: 0.8125rem;
+    text-align: center;
+    height: 0.84375rem;
+    line-height: 0.84375rem;
+    vertical-align: middle;
+    color: #f45a26;
+    margin-left: 1rem;
+}
+.noertit3 p {
+    font-size: 0.8125rem;
+    text-align: center;
+    height: 0.84375rem;
+    line-height: 0.84375rem;
+    vertical-align: middle;
+    color: #f45a26;
+    margin-left: 1rem;
+}
+.fix{
+	*zoom: 1;
+}
+.fix:after,.fix:before{
+	display: block;
+	content: "clear";
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+.gw_wap_2 {
+	width: 6.7rem;
+	float: right;
+	margin-right: 0.2rem;
+}
+.notice {
+    height: 3.25rem;
+    background-color: #fff;
+    padding-top: 1rem;
+    font-family: ºÚÌå;
+}
+.juzhong {
+    width: 17.8125rem;
+    margin: 0 auto;
+    height: auto;
+    font-weight: 500;
+}
+.checkIt {
+    height: 1.4125rem;
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+}
+.notice p:first-child {
+    font-size: 0.75rem;
+    color: #666666;
+    margin-left: 0.5rem;
+    font-weight: 500;
+    text-align: center;
+}

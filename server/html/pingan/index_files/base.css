@@ -1,0 +1,617 @@
+/**
+@size:实际大小 单位：px
+@unit:转换后有单位 默认rem
+@step:转换基数 默认32
+*/
+/**
+	padding
+*/
+/**
+	margin
+*/
+html,
+body,
+div,
+ul,
+ol,
+li,
+dd,
+dt,
+dl,
+p,
+h3,
+h4,
+span,
+input,
+textarea,
+select,
+option,
+table,
+tr,
+td,
+header,
+footer,
+section {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font-family: "Microsoft Yahei";
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+  color: #333;
+  background: #fff;
+}
+i,
+em {
+  font-style: normal;
+}
+input {
+  border: none;
+  font-size: 0.64rem;
+  outline: none;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  display: block;
+}
+.clear {
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.fl {
+  float: left;
+  display: block;
+}
+.fr {
+  float: right;
+  display: block;
+}
+.hide {
+  display: none;
+}
+.table {
+  display: table;
+  width: 100%;
+}
+.t_cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.t_row {
+  display: table-row;
+}
+::-wekbit-input-placeholder {
+  font-size: 0.64rem;
+  color: #d8d8d8;
+  font-family: "Microsoft Yahei";
+}
+::-moz-placeholder {
+  font-size: 0.64rem;
+  color: #d8d8d8;
+  font-family: "Microsoft Yahei";
+}
+::-ms-input-placeholder {
+  font-size: 0.64rem;
+  color: #d8d8d8;
+  font-family: "Microsoft Yahei";
+}
+@media screen and (min-width: 300px) {
+  html,
+  body,
+  input {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 320px) {
+  html,
+  body,
+  input {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 340px) {
+  html,
+  body,
+  input {
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html,
+  body,
+  input {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html,
+  body,
+  input {
+    font-size: 18.75px;
+  }
+}
+@media screen and (min-width: 380px) {
+  html,
+  body,
+  input {
+    font-size: 19px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html,
+  body,
+  input {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html,
+  body,
+  input {
+    font-size: 20.7px;
+  }
+}
+@media screen and (min-width: 420px) {
+  html,
+  body,
+  input {
+    font-size: 21px;
+  }
+}
+@media screen and (min-width: 440px) {
+  html,
+  body,
+  input {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 460px) {
+  html,
+  body,
+  input {
+    font-size: 23px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html,
+  body,
+  input {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 500px) {
+  html,
+  body,
+  input {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 520px) {
+  html,
+  body,
+  input {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html,
+  body,
+  input {
+    font-size: 27px;
+  }
+}
+@media screen and (min-width: 560px) {
+  html,
+  body,
+  input {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 580px) {
+  html,
+  body,
+  input {
+    font-size: 29px;
+  }
+}
+@media screen and (min-width: 600px) {
+  html,
+  body,
+  input {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 620px) {
+  html,
+  body,
+  input {
+    font-size: 31px;
+  }
+}
+@media screen and (min-width: 640px) {
+  html,
+  body,
+  input {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 660px) {
+  html,
+  body,
+  input {
+    font-size: 33px;
+  }
+}
+@media screen and (min-width: 680px) {
+  html,
+  body,
+  input {
+    font-size: 34px;
+  }
+}
+@media screen and (min-width: 700px) {
+  html,
+  body,
+  input {
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html,
+  body,
+  input {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 740px) {
+  html,
+  body,
+  input {
+    font-size: 37px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html,
+  body,
+  input {
+    font-size: 37.5px;
+  }
+}
+/* 短信群发管理功能样式 */
+.wrap-msg .top {
+  height: 2.13333333rem;
+  padding: Infinity40;
+  padding: 0.80 1.066666670;
+  padding: 0.8rem 1.06666667rem 0rem;
+  font-size: 0.53333333rem;
+  color: #666666;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.wrap-msg .top h1 {
+  width: 7.04rem;
+  height: 0.61333333rem;
+  background: url(./img/logo.png) left center no-repeat;
+  background-size: 100% 100%;
+  text-indent: -9999px;
+  float: left;
+}
+.wrap-msg .top h2 {
+  float: left;
+  margin-left: 0.53333333rem;
+  width: 4.26666667rem;
+  height: 0.61333333rem;
+  background: url(./img/logo_t.png) no-repeat;
+  background-size: 100% 100%;
+  text-indent: -9999px;
+}
+/* .wrap-msg .msg-con img {
+  height: 9.65333333rem;
+} */
+.wrap-msg .msg-con img {
+  height: 6.666667rem;
+}
+.wrap-msg .msg-con .condition {
+  margin-top: 0.13333333rem;
+}
+.wrap-msg .msg-con .condition .con-top {
+  padding: 0.7142857140;
+  padding: 0.6666666735 1.0666666735;
+  padding: 0.66666667rem 1.06666667rem 0.93333333rem;
+  border-bottom: 5px solid #f2f2f2;
+  box-sizing: border-box;
+}
+.wrap-msg .msg-con .condition .con-top h3 {
+  font-size: 0.74666667rem;
+  color: #0181ca;
+  margin-bottom: 0.26666667rem;
+}
+.wrap-msg .msg-con .condition .con-top p {
+  font-size: 0.58666667rem;
+  color: #333333;
+}
+.wrap-msg .msg-con .condition .con-top .mb {
+  margin-bottom: 0.66666667rem;
+}
+.wrap-msg .msg-con .condition .con-top .mb span {
+  margin-left: 1.06666667rem;
+}
+.wrap-msg .msg-con .condition .form .f-form {
+  margin-top: 0rem;
+  padding-left: 0rem;
+}
+.wrap-msg .msg-con .condition .form .f-form li {
+  border-bottom: 2px solid #f2f2f2;
+  font-size: 0.74666667rem;
+  padding: 040;
+  padding: 0rem 1.06666667rem;
+  overflow: hidden;
+}
+.wrap-msg .msg-con .condition .form .f-form li label {
+  width: 4.13333333rem;
+  height: 2.34666667rem;
+  line-height: 2.34666667rem;
+  display: inline-block;
+  color: #333333;
+  text-align: left;
+}
+.wrap-msg .msg-con .condition .form .f-form li input {
+  width: 8.69333333rem;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  font-size: 0.74666667rem;
+  padding-left: 0.26666667rem;
+}
+.wrap-msg .msg-con .condition .form .f-form li span {
+  height: 2.34666667rem;
+  line-height: 2.34666667rem;
+  color: #ec8438;
+  float: right;
+}
+.wrap-msg .msg-con .condition .form .f-form .ht {
+  padding: 0.6666666740;
+  padding: 0.66666667rem 1.06666667rem;
+}
+.wrap-msg .msg-con .condition .form .f-form .ht a {
+  width: 6.4rem;
+  height: 1.81333333rem;
+  line-height: 1.81333333rem;
+  display: block;
+  text-align: center;
+  color: #fff;
+  background: #ea5504;
+  font-size: 0.85333333rem;
+  border-radius: 3px;
+}
+.wrap-msg .msg-con .condition .form .f-form .ht .btn {
+  margin: 0 auto;
+}
+.wrap-msg .msg-con .condition .form .f-form .ht .info {
+  color: #656565;
+}
+.wrap-msg .msg-con .condition .form .f-form .ht .info a {
+  background: #ff8800;
+  margin-left: 1.6rem;
+  display: inline-block;
+}
+.wrap-msg .msg-con .condition .form .f-form .ht .error {
+  text-align: center;
+  color: #ff0000;
+  line-height: 0.8rem;
+  margin-bottom: 0.4rem;
+  font-size: 0.74666667rem;
+  display: none;
+}
+.wrap-msg .msg-con .condition .form .f-form .ht .error i {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: url(./img/error.png) no-repeat;
+  background-size: 100% 100%;
+  vertical-align: top;
+}
+/**遮罩+弹出层-公共样式**/
+.mode {
+  opacity: 0.6;
+  background: #000;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+.openlayer {
+  width: 100%;
+  position: fixed;
+  z-index: 1111;
+  font-size: 0.875rem;
+}
+/* 弹窗区域样式 */
+/* 弹窗1*/
+.popup {
+  display: none;
+}
+.popup-con {
+  width: 14.93333333rem;
+  height: 5.81333333rem;
+  background: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  color: #282828;
+  text-align: center;
+}
+.popup-con p {
+  line-height: 2.66666667rem;
+}
+.popup-con a {
+  color: #fff;
+  display: inline-block;
+  width: 6.4rem;
+  height: 1.81333333rem;
+  line-height: 1.81333333rem;
+  text-align: center;
+  background: #ea5504;
+  border-radius: 5px;
+}
+/* 弹窗2*/
+.tc {
+  display: none;
+}
+.tc-msg .con {
+  width: 14.93333333rem;
+  height: 2.88rem;
+  line-height: 2.88rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=base.css.map */
+
+
+
+/* 2016-10-19 */
+.form{
+	  border-top: 2px solid #f2f2f2;
+}
+#anti-ibButton {
+  font-size: 0.426667rem;
+  display: none;
+}
+/* #IbButton {
+  display: none;
+} */
+.ewmcode p {
+  color: #f35927;
+  font-size: 0.9rem;
+}
+.wrap-msg .msg-con img.tellscroll {
+  height: 1.173333rem;
+  width: 1.173333rem;
+  margin-top: 0.8rem;
+  margin-left: 1.333333rem;
+  margin-right: 0.8rem;
+}
+.ewmcode{
+	padding:0.8rem 0.533333rem;
+}
+.ewmcode .ewmtitle{
+	  width: 10.266667rem;
+	  margin-left: 1.066667rem;
+}
+.ewmcode .ewmtitle h3{  font-size: 0.9rem; color: #f35927;}
+.Howdo {
+    padding-top: 0.6875rem;
+    clear: both;
+    font-size: 0.8rem;
+    text-align: center;
+      font-weight: bolder;
+}
+.call{
+	height:2.666667rem;
+	line-height: 2.666667rem;
+	width: 94%;
+    margin: 0 auto;
+}
+.call .thisphone{
+	background-image: url(../app_img/tellBg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+      background-position: 0;
+  height: 2.666667rem;
+  line-height: 2.666667rem;
+}
+.noertit {
+  background: url(../app_img/draw.png) 0rem 0rem no-repeat;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  background-size: contain;
+  margin-top: 0.6rem;
+  text-indent: 1.4rem;
+}
+.call h5{
+	color: #FFFFFF;
+  font-size: 0.8rem;
+  font-weight: 500;
+  float: left;
+  height: 2.5625rem;
+  width: 13.75rem;
+  line-height: 2.5625rem;
+  text-align: center;
+  vertical-align: middle;
+  animation: tellscale 3s ease infinite;
+  -webkit-animation: tellscale 3s ease infinite;
+}
+@keyframes tellscale {
+    0% {
+        transform: scale(1, 1);
+        -ms-transform: scale(1, 1); /* IE 9 */
+        -webkit-transform: scale(1, 1); /* Safari and Chrome */
+    }
+    15% {
+        transform: scale(1.13, 1.1);
+        -ms-transform: scale(1.13, 1.1); /* IE 9 */
+        -webkit-transform: scale(1.13, 1.1); /* Safari and Chrome */
+    }
+    30% {
+        transform: scale(1, 1);
+        -ms-transform: scale(1, 1); /* IE 9 */
+        -webkit-transform: scale(1, 1); /* Safari and Chrome */
+    }
+}
+
+@-webkit-keyframes tellscale {
+    0% {
+        transform: scale(1, 1);
+        -ms-transform: scale(1, 1); /* IE 9 */
+        -webkit-transform: scale(1, 1); /* Safari and Chrome */
+    }
+    15% {
+        transform: scale(1.13, 1.1);
+        -ms-transform: scale(1.13, 1.1); /* IE 9 */
+        -webkit-transform: scale(1.13, 1.1); /* Safari and Chrome */
+    }
+    30% {
+        transform: scale(1, 1);
+        -ms-transform: scale(1, 1); /* IE 9 */
+        -webkit-transform: scale(1, 1); /* Safari and Chrome */
+    }
+}
