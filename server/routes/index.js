@@ -6,7 +6,7 @@ const router = new Router();
 
 router
   .get("/", async (ctx, next) => {
-    ctx.body =  ctxsd.request.body;
+    ctx.body =  {};
   })
   .post("/users", s_user.add)
   .put("/users/:id", async (ctx, next) => {
@@ -21,5 +21,6 @@ router
     // ...
     // ctx.body = ctx.request.body;
   });
-
+  
+  
 module.exports = router;
