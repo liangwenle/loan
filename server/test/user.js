@@ -7,9 +7,10 @@ const instance = axios.create({
 });
 
 instance
-  .get("/")
+  .post("/users")
+  // .post("/users")
   .then(function(response) {
-    console.log(response);
+    console.log(response.data);
   })
   .catch(function(error) {
     console.log(error);

@@ -4,4 +4,5 @@ mongoose.Promise = global.Promise;
 
 module.exports = {
   user:require('./user')
+  
 }
