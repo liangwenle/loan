@@ -3,7 +3,6 @@
 
   async add (ctx){
     let user = db.user.find({name:"12"})
-
   }
 
 }
