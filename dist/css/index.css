@@ -1,33 +1,41 @@
-body {
+
+html,body,#app{
+  height: 100%;
+}
+ body {
   background: #ddd;
 }
 #app {
-  max-width: 945px;
+  max-width: 640px;
   margin: auto;
+  background: rgb(238, 238, 238);
+  height: 100%;
 }
 #Header{
-  height: 60px;
+  height: 88px;
   width: 100%;
+  max-width: 640px;
   position: fixed;
   top: 0;
   background: white;
   z-index: 100;
   text-align: center;
+  border-bottom: 1px solid #ddd;
 }
 #Main{
-  margin-top: 60px;
+  padding-top: 88px;
 }
 
 #Header i{
-  line-height: 60px;
+  line-height: 88px;
   font-size: 35px;
 }
 #Header span{
-  line-height: 60px;
+  line-height: 88px;
   font-size: 30px;
 }
 #Header div{
-  width: 60px;
+  width: 88px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -37,5 +45,41 @@ body {
   right: 0;
 }
 
+.list{
+  /* position: fixed; */
+}
+.item{
+  margin: 0 10px;
+  background: white;
+  height: 170px;
+  display: flex;
+  color: #bbb;
+}
+.img{
+  padding: 35px 20px;
+}
+.img img{
+  width: 100px;
+  height: 100px;
+}
 
-
+.ct{
+  width: 420px;
+}
+.jr{
+  line-height: 140px;
+  font-size: 40px;
+}
+.ct h3{
+  margin-top: 20px;
+  color: #111;
+}
+.ms{
+  margin-top: 10px;
+}
+.rs{
+  margin-top: 10px;
+}
+.rs span{
+  color: rgb(207, 54, 54)
+}
