@@ -7,7 +7,7 @@ const instance = axios.create({
 });
 
 instance
-  .post("/users")
+  .post("/users", {name: '张三', phone: 13500000000, pdId: '123'})
   // .post("/users")
   .then(function(response) {
     console.log(response.data);

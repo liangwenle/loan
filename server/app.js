@@ -33,6 +33,7 @@ appApi
     try {
       await next();
     } catch (e) {
+      console.log(e)
       ctx.body = {code:500,msg:'服务器有误！！'};
     }
   })
